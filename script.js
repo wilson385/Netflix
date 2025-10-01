@@ -27,12 +27,6 @@ player.addEventListener("ended", function() {
 
 })
 
-
-
-
-
-
-
 const saudacao = document.getElementById("paragrafo_saudacao");
  function enviar () {
     const Inputnome = document.getElementById("input_name").value.trim();
@@ -72,7 +66,7 @@ function renderizar_Nome() {
     }
 
     else {
-          saudacao.textContent = `Seja Bem-Vindo ${nome}`;
+          saudacao.textContent = `Seja Bem-Vindo ${nome}!`;
     }
 
 

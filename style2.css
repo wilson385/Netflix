@@ -136,7 +136,7 @@ video {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    
 }
 
 .logo-perfil {
@@ -147,10 +147,12 @@ video {
 
  p {
     padding: 10px;
+    
  }
 
  .alterar {
     padding: 10px;
+    order: 1;
  }
 
 
