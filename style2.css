@@ -109,6 +109,7 @@ nav a {
     text-decoration: none;
     padding: 6px;
     color: white;
+    padding: 0;
 }
 
 nav a em {
