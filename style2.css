@@ -140,10 +140,18 @@ video {
 }
 
 .logo-perfil {
-    text-align: center ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     order: 1;
+    padding: 10px;
 
 }
+
+.logo-perfil img {
+   padding: 10px;
+}
+
 
  p {
     padding: 10px;
@@ -169,11 +177,16 @@ a {
 
 .secundario {
     margin-top: 40px;
-    text-align: center;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 video {
   border: 2px solid #999;
+  
+
   
 }
 
