@@ -16,6 +16,7 @@ body{
 
 img {
     width: 500px;
+    text-align: center;
 }
 
 a  {
@@ -38,6 +39,7 @@ button {
     max-width: 330px;
     
     
+    
 
 }
 
@@ -45,10 +47,3 @@ button:hover {
     background-color: rgb(161, 18, 18);
 }
 
-@media (max-width: 989px) {
-    .primario {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
