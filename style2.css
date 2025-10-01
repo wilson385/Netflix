@@ -127,7 +127,6 @@ video {
      width: 80%;        /* ajusta ao tamanho da tela */
   border-radius: 15px; /* bordas arredondadas */
   box-shadow: 0 4px 20px rgba(0,0,0,0.4); /* sombra */
-
   
 }
 
@@ -140,12 +139,17 @@ video {
     gap: 10px;
 }
 
+.logo-perfil {
+    text-align: center ;
+    order: 1;
+
+}
+
  p {
     padding: 10px;
  }
 
  .alterar {
-
     padding: 10px;
  }
 
@@ -166,10 +170,12 @@ a {
 
 .secundario {
     margin-top: 40px;
+    text-align: center;
 }
 
 video {
   border: 2px solid #999;
+  
 }
 
 
