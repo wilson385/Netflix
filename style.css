@@ -13,19 +13,31 @@ body{
     height: 100vh;
 }
 
+
 img {
     width: 500px;
 }
 
+a  {
+    text-decoration: none;
+    color: black; 
+    width: 100%;
+    text-align: center;
+}
+
+
 button {
-    padding: 10px;
+    padding: 13px;
     border-radius: 10px;
     border: none;
     transition: all 0.8s;
     background-color: white;
-    width: 100%;
-    max-width: 250px;
     cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    max-width: 330px;
+    
+    
 
 }
 
@@ -33,8 +45,10 @@ button:hover {
     background-color: rgb(161, 18, 18);
 }
 
-a  {
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
+@media (max-width: 989px) {
+    .primario {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

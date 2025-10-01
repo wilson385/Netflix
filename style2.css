@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Macondo&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.primario {
+    display: flex;
+}
+
+.logo-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-perfil p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo-perfil input {
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    background-color: #63110e;
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+    font-size: 10.4px;
+    color: rgb(255, 255, 255);
+    font-family: "IBM Plex Mono", monospace;
+
+}
+
+.logo-perfil button {
+    padding: 8px;
+    background-color:  #63110e;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    transition: all 0.6s;
+    font-weight: 300;
+
+}
+
+.logo-perfil button:hover {
+    background: #7a1310;
+}
+
+.logo-perfil img {
+    width: 120px;
+    padding: 10px;
+}
+
+.alterar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+ .alterar .trocar_nome {
+    background-color: rgb(0, 255, 106);
+    color: black;
+    font-family: "IBM Plex Mono", monospace;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    transition: 0.7s;
+    font-size: 10px;
+}
+
+.alterar .trocar_nome:hover {
+    background-color: #138f27;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0;
+    gap: 20px;
+}
+
+nav li {
+    padding: 8px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    list-style: none;
+}
+
+nav li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+}
+
+nav a em {
+    font-size: 18px;
+}
+
+.logo-netflix img {
+    width: 190px;
+}
+
+.secundario {
+    text-align: center;
+}
+video {
+
+     width: 80%;        /* ajusta ao tamanho da tela */
+  border-radius: 15px; /* bordas arredondadas */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4); /* sombra */
+
+  
+}
+
+@media (max-width: 1122px) {
+ 
+.primario {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ p {
+    padding: 10px;
+ }
+
+ .alterar {
+
+    padding: 10px;
+ }
+
+
+
+nav {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+li {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.secundario {
+    margin-top: 40px;
+}
+
+video {
+  border: 2px solid #999;
+}
+
+
+  .logo-netflix {
+    order: -1;
+    padding: 10px;
+  }
+
+  .logo-netflix img {
+    width: 250px;
+  } 
+  
+
+   
+   
+
+}
