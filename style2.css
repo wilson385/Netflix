@@ -193,6 +193,8 @@ a {
 
 video {
   border: 2px solid #999;
+  width: 100%;        /* ajusta ao tamanho da tela */
+  border-radius: 15px; /* bordas arredondadas */
   
 
   
