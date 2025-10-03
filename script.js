@@ -50,9 +50,8 @@ function alterar() {
     const mudar_nome = document.createElement("button");
     mudar_nome.className = "trocar_nome";
     mudar_nome.textContent = "Alterar Nome";
-    const div_Alterar= document.querySelector(".alterar");
-    div_Alterar.appendChild(mudar_nome);
-    // const mudar_foto = document.createElement("");
+    const logo_perfil= document.querySelector(".logo-perfil");
+    logo_perfil.appendChild(mudar_nome);
     mudar_nome.onclick = () => renderizar_Nome();
 
 }
