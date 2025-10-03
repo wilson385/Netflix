@@ -73,10 +73,11 @@ body {
     transition: 0.7s;
     font-size: 10px;
     font-weight: bolder;
+/*  */
 }
 
  .logo-perfil .trocar_nome:hover {
-    background-color: #138f27;
+    background-color: #138f27; 
 
 }
 
