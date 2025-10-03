@@ -168,6 +168,8 @@ video {
  .alterar {
     padding: 10px;
     order: 1;
+    margin-top: -30px;
+
  }
 
 nav {
