@@ -146,14 +146,22 @@ video {
   align-items: center;
     order: 1;
     padding: 10px;
+    border: 1px solid red;
+    gap: 0px;
 
+}
+
+.logo-perfil input {
+    margin-right: 28px;
+}
+
+.logo-perfil button {
+    margin-right: 20px;
 }
 
 .logo-perfil img {
    padding: 10px;
 }
-
-
  p {
     padding: 10px;
  }
