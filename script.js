@@ -47,12 +47,13 @@ alterar();
 }
 
 function alterar() {
-    const mudar_nome = document.createElement("button");
-    mudar_nome.className = "trocar_nome";
-    mudar_nome.textContent = "Alterar Nome";
+    const alterar_nome = document.createElement("button");
+    alterar_nome.className = "trocar_nome";
+    alterar_nome.textContent = "Alterar Nome";
     const logo_perfil= document.querySelector(".logo-perfil");
-    logo_perfil.appendChild(mudar_nome);
-    mudar_nome.onclick = () => renderizar_Nome();
+    logo_perfil.appendChild(alterar_nome);
+    // quando clicado no botão, chama a função renderizar_Nome
+   alterar_nome.onclick = () => renderizar_Nome();
 
 }
 
