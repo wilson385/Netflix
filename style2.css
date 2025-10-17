@@ -237,7 +237,11 @@ video {
   main section div {
      justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
+  }
+
+  main section div img {
+    width: 100px;
   }
 
    
