@@ -142,7 +142,7 @@ main section h2 {
     text-align: center;
 }
 
-main section div {
+main section ul {
     display: flex;
     gap: 5px;
     margin-top: 30px;
@@ -153,7 +153,22 @@ main section div {
 
 }
 
-main section div img {
+main section ul li {
+    list-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+     transition: all 0.6s;
+
+}
+
+main section ul li:hover {
+      padding:10px;
+    background-color: transparent;
+
+}
+
+
+main section img {
     width: 200px;
 }
 
@@ -234,17 +249,14 @@ video {
     width: 250px;
   } 
   
-  main section div {
+  main section ul {
      justify-content: center;
     align-items: center;
     gap: 5px;
   }
 
-  main section div img {
+  main section ul img {
     width: 100px;
   }
-
-   
-   
 
 }
