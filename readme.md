@@ -10,7 +10,7 @@
 
 ## 📖 Sobre o Projeto
 
-A **Netflix -** é um projeto desenvolvido com HTML, CSS e JavaScript com o objetivo de simular visualmente a interface da Netflix.
+A **Netflix clone** é um projeto desenvolvido com HTML, CSS e JavaScript com o objetivo de simular visualmente a interface da Netflix.
 
 A aplicação possui uma experiência interativa onde o usuário pode inserir seu nome, que será exibido dinamicamente na tela, criando uma sensação personalizada semelhante às plataformas de streaming.
 
