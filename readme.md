@@ -26,7 +26,7 @@ Além disso, o site conta com trailers automáticos de filmes e listas renderiza
 - Campo para o usuário inserir seu nome
 - Exibição dinâmica do nome na interface
 - Listas de filmes e séries renderizadas na tela
-- Layout moderno e responsivo
+- Layout moderno e responsivo.
 
 ---
 
@@ -35,8 +35,7 @@ Além disso, o site conta com trailers automáticos de filmes e listas renderiza
 - Reprodução automática de trailers
 - Renderização dinâmica de conteúdos
 - Manipulação do DOM com JavaScript
-- Experiência visual semelhante a plataformas de streaming
-
+- Experiência visual semelhante a plataformas de streaming.
 ---
 
 ## 🛠️ Tecnologias Utilizadas

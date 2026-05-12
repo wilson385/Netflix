@@ -150,7 +150,6 @@ main section ul {
      flex-direction: row;
     /* “Se os itens não couberem em uma linha, mande o que sobrar para a próxima linha.” */
     flex-wrap: wrap;
-
 }
 
 main section ul li {
